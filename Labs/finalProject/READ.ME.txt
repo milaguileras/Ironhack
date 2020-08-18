@@ -1,0 +1,26 @@
+﻿For this final project I combined my mid-course project with new skills I acquired until the end of the course. 
+
+
+
+
+Methodology
+1- Created a dataset with billboard’s Top 100 songs of the week
+2- Created a combined dataset from Spotify and last.fm's songs (2006-2009, 2019-2020)
+3 - Using Spotify’s API, collected information from all songs (genre, energy, danceability)
+4- Calculated the distance between each song from Top 100 and the average of my personal dataset
+5- Selected the 5 songs closest to my music taste and added to a Spotify playlist created through the API.
+
+
+Tools
+* Spotify api
+* Billboard’s web scraping
+*LAST.FM database
+*Python
+Outcomes:
+1 - The music suggestion was good, but very different from my music taste;
+2 - Large database with noise from party playlists and children’s music from babysitting could have skewed the model;
+3-  Calculating the simple average distance could have also skewed the results;
+4- Maybe it needs more data from Spotify (newer data);
+5- Maybe trying to calculate the distance using a different method;
+6- Maybe I have an eclectic musical taste;
+7- Maybe all I needed to get back to music was to take the first step.
